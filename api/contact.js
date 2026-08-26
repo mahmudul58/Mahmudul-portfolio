@@ -31,7 +31,7 @@ export default async function handler(req, res) {
       // Until you verify your own domain with Resend, sending must
       // come from this shared address — see the note below the code.
       from: "Portfolio Contact <onboarding@resend.dev>",
-      to: "abc@gmail.com", // replace with your real inbox
+      to: "mahmudul.mbstu.ict@gmail.com", // Emails will be sent to your real inbox
       reply_to: email,
       subject: `New portfolio message from ${name}`,
       text: `From: ${name} <${email}>\n\n${message}`,
