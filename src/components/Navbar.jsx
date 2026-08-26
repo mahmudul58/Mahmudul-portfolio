@@ -85,7 +85,7 @@ export default function Navbar() {
                        hover:text-amber-600 dark:hover:text-amber-400 transition-colors duration-200
                        focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 rounded"
           >
-            Md. Mahmudul Islam Amit
+            Mahmudul Islam Amit
           </button>
 
           {/* ─── Desktop links ────────────────────── */}

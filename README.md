@@ -38,10 +38,10 @@ To run this project on your local machine, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/mahmudul58/mahmudul-portfolio.git
+git clone https://github.com/mahmudul58/Mahmudul-portfolio.git
 
 # Navigate to the project directory
-cd mahmudul-portfolio
+cd Mahmudul-portfolio
 
 # Install dependencies
 npm install
