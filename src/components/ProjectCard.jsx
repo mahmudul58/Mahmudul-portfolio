@@ -47,10 +47,6 @@ export default function ProjectCard({ project }) {
           <h3 className="font-display text-lg font-bold text-ink-900 dark:text-white">
             {project.name}
           </h3>
-          <span className="font-mono text-[10px] text-ink-500 dark:text-white/40 whitespace-nowrap mt-1.5
-                           px-2 py-0.5 rounded-full border border-ink-900/10 dark:border-white/10">
-            {project.role.toUpperCase()}
-          </span>
         </div>
 
         <p className="text-sm leading-relaxed text-ink-700 dark:text-white/70 mb-4 flex-1">

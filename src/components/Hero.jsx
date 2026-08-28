@@ -66,7 +66,8 @@ export default function Hero() {
             </button>
             <a
               href={profile.resume}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="glass px-6 py-3 rounded-xl text-sm font-semibold text-ink-900 dark:text-white
                          hover:-translate-y-0.5 transition-transform duration-200 flex items-center gap-2
                          focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500"
