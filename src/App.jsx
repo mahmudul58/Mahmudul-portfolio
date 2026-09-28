@@ -5,6 +5,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
+import Credentials from "./components/Credentials.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
@@ -66,7 +67,7 @@ export default function App() {
           <About />
           <Skills />
           <Projects />
-          {/* <Credentials /> */}
+          <Credentials />
           <Contact />
         </main>
         <Footer />

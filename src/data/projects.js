@@ -7,6 +7,18 @@
  */
 export const projects = [
   {
+    id: "shop-haat",
+    name: "ShopHaat",
+    role: "Solo",
+    stack: ["Django", "DRF", "React", "Tailwind CSS", "PostgreSQL", "JWT Auth"],
+    description:
+      "A full-stack multi-vendor marketplace where buyers can search products, manage a cart and wishlist, apply coupons, and check out. Verified sellers manage their own products and orders, while admins oversee the whole platform through a dedicated dashboard.",
+    metric: "Multi-vendor · REST API · JWT",
+    image: "/gifs/project_1.png",
+    live: "https://shop-haat.vercel.app/",
+    code: "https://github.com/mahmudul58/ShopHaat",
+  },
+  {
     id: "chest-xray",
     name: "Chest X-Ray Screening Assistant",
     role: "Solo",
@@ -17,6 +29,17 @@ export const projects = [
     image: "/gifs/project_7.png",
     live: "https://chest-x-ray-screening-assistant-g1c.vercel.app/",
     code: "https://github.com/mahmudul58/Chest-X-Ray-Screening-Assistant",
+  },
+  {
+    id: "modernscribe",
+    name: "ModernScribe",
+    stack: ["Django", "PostgreSQL", "Tailwind CSS"],
+    description:
+      "Full-featured blogging platform where users publish articles, browse content, and engage through likes and comments, with secure authentication and a PostgreSQL-backed data layer.",
+    metric: "Full CRUD · Auth system · PostgreSQL",
+    image: "/gifs/project_5.png",
+    live: "https://blog-post-webapp.onrender.com/",
+    code: "https://github.com/mahmudul58/Blog-Post-WebApp",
   },
   {
     id: "weather-app",
@@ -31,18 +54,6 @@ export const projects = [
     code: "https://github.com/mahmudul58/Weather-Web-App",
   },
   {
-    id: "modernscribe",
-    name: "ModernScribe",
-    stack: ["Django", "PostgreSQL", "Tailwind CSS"],
-    description:
-      "Full-featured blogging platform where users publish articles, browse content, and engage through likes and comments, with secure authentication and a PostgreSQL-backed data layer.",
-    metric: "Full CRUD · Auth system · PostgreSQL",
-    image: "/gifs/project_5.png",
-    live: "https://blog-post-webapp.onrender.com/",
-    code: "https://github.com/mahmudul58/Blog-Post-WebApp",
-  },
-
-  {
     id: "shopping-cart",
     name: "React Shopping Cart",
     stack: ["React"],
@@ -53,5 +64,4 @@ export const projects = [
     live: "https://tech-next-nine.vercel.app",
     code: "https://github.com/mahmudul58/React-Shopping-Cart",
   },
-
 ];

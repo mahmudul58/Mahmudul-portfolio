@@ -60,7 +60,7 @@ export default function Contact() {
     <section id="contact" className="px-6 py-20 scroll-mt-24">
       <div className="max-w-6xl mx-auto">
         <Reveal>
-          <SectionHeading index="04" title="Contact" />
+          <SectionHeading index="05" title="Contact" />
         </Reveal>
 
         <Reveal delay={80}>

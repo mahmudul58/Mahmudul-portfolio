@@ -18,6 +18,6 @@ export const profile = {
 export const aboutStats = [
   { label: "Location", value: "Tangail, Bangladesh" },
   { label: "Education", value: "B.Sc. in ICT, MBSTU" },
-  { label: "Academic Year", value: "3rd Year, 2nd Semester" },
+  { label: "Expected Graduation", value: "2027" },
   { label: "Focus", value: "Full Stack Web Development" },
 ];
